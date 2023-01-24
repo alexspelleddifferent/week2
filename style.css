@@ -1,0 +1,72 @@
+p {
+    color:red;
+    font-size: 14px;
+}
+
+h1 {
+    color:purple;
+    text-align: justify;
+}
+
+body {
+    background-color: paleturquoise;
+}
+
+a {
+    color: wheat;
+    background-color: black;
+    text-decoration: line-through;
+}
+
+li{
+    margin-left: 20px;
+}
+
+table, tr, th, td {
+    border:1.5px black dotted;
+    border-collapse: collapse;
+}
+
+th {
+    color: burlywood;
+}
+
+td {
+    color: navy;
+}
+
+#page-title {
+    text-shadow: 6px 4px ivory;
+    margin: 30px;
+}
+
+#favourite-movie-title {
+    font-style: italic;
+    color: ivory;
+}
+
+#favourite-music-name {
+    font-weight: bold;
+    background-color: chartreuse;
+}
+
+.section-header{
+    text-shadow: 6px 4px ivory;
+    font-style: italic;
+}
+
+.favourite-section {
+    border: 2px orange dotted;
+    margin: 10px;
+    padding: 5px;
+}
+
+.favourite-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#most-favourite-food {
+    text-decoration:underline;
+}

@@ -3,14 +3,41 @@
 
     <head>
         <title>My Favourite Things</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
-        <h1>Some of my favourite things</h1>
-        <h2>Favourite movie</h2>
-        <p><a href="https://www.imdb.com/title/tt1190536/"><i>Black Dynamite (2009).</i></a> Black Dynamite is the greatest African-American action star of the 1970s. When his only brother is killed by The Man, it's up to him to find justice</p>
-        <h2>Favourite Music</h2>
-        <p><a href="https://open.spotify.com/artist/2pAWfrd7WFF3XhVt9GooDL"><b>MF DOOM</b></a></p>
+        <h1 id="page-title">Some of my favourite things</h1>
+        <h1>By Alex</h1>
+        <div class="favourite-section">
+            <h2 class="section-header">Favourite movie</h2>
+            <p>My favourite movie is <a href="https://www.imdb.com/title/tt1190536/"><i><span id="favourite-movie-title">Black Dynamite (2009).</span></i></a> Its synopsis is: Black Dynamite is the greatest African-American action star of the 1970s. When his only brother is killed by The Man, it's up to him to find justice.</p>
+        </div>
+        <div class="favourite-section">
+            <h2 class="section-header">My Favourite Artist</h2>
+            <p>My favourite artist is <span id="favourite-music-name">MF DOOM</span>. This is <a href="https://open.spotify.com/artist/2pAWfrd7WFF3XhVt9GooDL">his spotify page</a></p>
+        </div>
+        <div class="favourite-section">
+            <h2 class="section-header">My Favourite Food</h2>
+            <ul>
+                <li id="most-favourite-food">Spaghetti Bolognese</li>
+                <li>Eggs (any kind)</li>
+                <li>Cherries</li>
+            </ul>
+        </div>
+        <div class="favourite-section">
+            <h2 class="section-header">Some Favourite Images</h2>
+            <img class="favourite-image" width=300px src="bonsai1.jpg" alt="A multi stem bonsai tree">
+            <img class="favourite-image" width=300px src="bonsai2.jpg" alt="A fall themed bonsai tree">
+        </div>
+        <div class="favourite-section">
+            <h2 class="section-header">My Favourite Books</h2>
+            <table>
+                <tr><th>Book name</th><th> Author </th><th> Link </th></tr>
+                <tr><td>Master and Margarita</td><td>Mikhail Bulgakov</td><td><a href="https://en.wikipedia.org/wiki/The_Master_and_Margarita">Link</a></td></tr>
+                <tr><td>Harry Potter 3</td><td>J.K. Rowling</td><td><a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban">Link</a></td></tr>
+            </table>
+        </div>
     </body>
 
 </html>
